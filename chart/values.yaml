@@ -1,6 +1,6 @@
 image:
   repository: docker.io/yennhc/gitops-demo
-  tag: v1
+  tag: "4"
 replicaCount: 2
 service:
   type: NodePort
