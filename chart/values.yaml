@@ -1,0 +1,7 @@
+image:
+  repository: docker.io/yennhc/gitops-demo
+  tag: v1
+replicaCount: 2
+service:
+  type: NodePort
+  port: 80
