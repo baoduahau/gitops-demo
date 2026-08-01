@@ -1,7 +1,10 @@
-image:
-  repository: docker.io/yennhc/gitops-demo
-  tag: "4"
 replicaCount: 2
+
+image:
+  repository: docker.io/baoduahau/gitops-demo
+  tag: "4"
+  pullPolicy: IfNotPresent
+
 service:
   type: NodePort
   port: 80
